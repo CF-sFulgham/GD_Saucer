@@ -13,7 +13,7 @@ config_version=5
 config/name="saucer"
 run/main_scene="uid://dtdflf1hppq51"
 config/features=PackedStringArray("4.4", "C#", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://smiu61w8q3yk"
 
 [dotnet]
 
