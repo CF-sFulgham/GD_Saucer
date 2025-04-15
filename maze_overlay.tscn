@@ -1,0 +1,586 @@
+[gd_scene load_steps=66 format=3 uid="uid://cwd25o5a0jr51"]
+
+[ext_resource type="Texture2D" uid="uid://vnnnkcfnhqt" path="res://square-maze-game-for-kids-free-vector.jpg" id="1_wfqnd"]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_wfqnd"]
+a = Vector2(99, 695)
+b = Vector2(99, -57)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_ptfk2"]
+a = Vector2(80, 296)
+b = Vector2(833, 295)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_xo25r"]
+b = Vector2(1, 615)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_a0s56"]
+a = Vector2(203, 1)
+b = Vector2(-4, 2)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_0o8k7"]
+a = Vector2(-9, 1)
+b = Vector2(128, 1)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_oneo8"]
+a = Vector2(-6, 0)
+b = Vector2(64, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_78e77"]
+a = Vector2(1, -6)
+b = Vector2(1, 59)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_6mma3"]
+a = Vector2(-1, 1)
+b = Vector2(67, 1)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_t027d"]
+a = Vector2(-7, 0)
+b = Vector2(60, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_aibu0"]
+a = Vector2(0, -2)
+b = Vector2(0, 130)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_h2tyo"]
+b = Vector2(-1, 275)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_tkh2w"]
+b = Vector2(751, -2)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_2iq8p"]
+b = Vector2(0, 145)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_qonp8"]
+b = Vector2(202, -1)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_sa10q"]
+b = Vector2(0, 135)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_hen7d"]
+b = Vector2(133, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_3y1dc"]
+b = Vector2(0, -203)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_btnbe"]
+b = Vector2(132, -1)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_ady3d"]
+b = Vector2(0, -68)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_4xwm0"]
+b = Vector2(0, -68)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_vwo8i"]
+a = Vector2(0, -2)
+b = Vector2(0, 68)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_21meb"]
+a = Vector2(-4, 0)
+b = Vector2(126, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_aldg8"]
+a = Vector2(2, -1)
+b = Vector2(-65, -1)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_mkqsq"]
+b = Vector2(1, 136)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_0rdf3"]
+a = Vector2(1, -2)
+b = Vector2(1, 62)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_gm4ds"]
+a = Vector2(0, -1)
+b = Vector2(0, 199)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_n83xw"]
+a = Vector2(-3, -1)
+b = Vector2(68, -1)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_j4ty2"]
+a = Vector2(0, -2)
+b = Vector2(1, -141)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_lvl5s"]
+a = Vector2(-3, 1)
+b = Vector2(59, 1)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_4fgko"]
+b = Vector2(0, -71)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_66v7i"]
+b = Vector2(64, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_d3jan"]
+a = Vector2(1, 1)
+b = Vector2(2, -65)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_0ulxn"]
+b = Vector2(134, -1)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_kh8ha"]
+b = Vector2(0, -69)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_xsbms"]
+a = Vector2(1, 0)
+b = Vector2(1, -205)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_pe647"]
+a = Vector2(-4, 0)
+b = Vector2(57, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_506sd"]
+a = Vector2(2, 0)
+b = Vector2(-132, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_c8jgy"]
+b = Vector2(0, 67)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_n20vw"]
+a = Vector2(1, 0)
+b = Vector2(66, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_8msgk"]
+a = Vector2(0, -2)
+b = Vector2(-1, 201)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_nehhj"]
+a = Vector2(3, -1)
+b = Vector2(-62, -1)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_kd7ix"]
+a = Vector2(1, 3)
+b = Vector2(2, -201)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_npiqv"]
+a = Vector2(4, -2)
+b = Vector2(-131, -1)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_hr8rr"]
+b = Vector2(0, 64)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_mapd2"]
+a = Vector2(-1, -1)
+b = Vector2(-200, -2)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_m1tby"]
+b = Vector2(66, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_wqima"]
+a = Vector2(0, 1)
+b = Vector2(0, -136)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_01sr3"]
+b = Vector2(65, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_uixnc"]
+a = Vector2(0, -2)
+b = Vector2(0, 64)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_ns7lr"]
+a = Vector2(-5, -1)
+b = Vector2(62, -1)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_1lugx"]
+a = Vector2(1, -2)
+b = Vector2(1, 140)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_aw4xa"]
+b = Vector2(62, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_r6cf2"]
+b = Vector2(0, 138)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_npwpi"]
+b = Vector2(198, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_wrujn"]
+b = Vector2(134, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_3gkpo"]
+b = Vector2(0, -67)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_enywp"]
+b = Vector2(0, -132)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_6qv28"]
+b = Vector2(-65, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_c2gb1"]
+b = Vector2(-67, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_0ffqc"]
+b = Vector2(0, 66)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_42mg0"]
+b = Vector2(207, 1)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_dfsl1"]
+b = Vector2(0, 67)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_b4ss5"]
+b = Vector2(136, 1)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_pbkbv"]
+b = Vector2(0, 63)
+
+[node name="MazeOverlay" type="Area2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+visible = false
+offset_right = 1141.0
+offset_bottom = 1141.0
+texture = ExtResource("1_wfqnd")
+
+[node name="Line2D" type="Line2D" parent="."]
+points = PackedVector2Array(193, 195, 950, 194, 951, 810, 739, 810)
+default_color = Color(0.599103, 0.129501, 0.917037, 1)
+
+[node name="Line2D2" type="Line2D" parent="."]
+points = PackedVector2Array(197, 195, 197, 264, 407, 263)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D3" type="Line2D" parent="."]
+points = PackedVector2Array(337, 332, 198, 332, 197, 947, 950, 946, 950, 878, 808, 878)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D4" type="Line2D" parent="."]
+points = PackedVector2Array(264, 400, 334, 400, 334, 467, 266, 467, 266, 605, 199, 605)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D5" type="Line2D" parent="."]
+points = PackedVector2Array(813, 194, 813, 262, 608, 262, 608, 399, 403, 400, 403, 473)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D6" type="Line2D" parent="."]
+points = PackedVector2Array(745, 472, 745, 400, 677, 400, 676, 468, 608, 468, 608, 673, 539, 673, 540, 605, 403, 605, 403, 673, 471, 673, 471, 878, 403, 878, 403, 945)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D7" type="Line2D" parent="."]
+points = PackedVector2Array(948, 673, 745, 673, 745, 742, 608, 742, 608, 878, 680, 878)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D8" type="Line2D" parent="."]
+points = PackedVector2Array(471, 401, 471, 537, 335, 537, 335, 742, 406, 742)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D9" type="Line2D" parent="."]
+points = PackedVector2Array(266, 947, 266, 669)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D10" type="Line2D" parent="."]
+points = PackedVector2Array(335, 883, 335, 810, 469, 810)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D11" type="Line2D" parent="."]
+points = PackedVector2Array(471, 878, 544, 878)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D12" type="Line2D" parent="."]
+points = PackedVector2Array(539, 672, 539, 814)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D13" type="Line2D" parent="."]
+points = PackedVector2Array(676, 743, 676, 814)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D14" type="Line2D" parent="."]
+points = PackedVector2Array(745, 874, 745, 947)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D15" type="Line2D" parent="."]
+points = PackedVector2Array(813, 811, 813, 742, 886, 742)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D16" type="Line2D" parent="."]
+points = PackedVector2Array(745, 672, 745, 605, 676, 605, 676, 532)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D17" type="Line2D" parent="."]
+points = PackedVector2Array(676, 678, 676, 604)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D18" type="Line2D" parent="."]
+points = PackedVector2Array(947, 467, 881, 467, 881, 605, 813, 605, 813, 536, 740, 536)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D19" type="Line2D" parent="."]
+points = PackedVector2Array(609, 468, 540, 468, 540, 540)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D20" type="Line2D" parent="."]
+points = PackedVector2Array(403, 401, 403, 326)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D21" type="Line2D" parent="."]
+points = PackedVector2Array(471, 259, 471, 331, 681, 331)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D22" type="Line2D" parent="."]
+points = PackedVector2Array(540, 197, 540, 267)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D23" type="Line2D" parent="."]
+points = PackedVector2Array(882, 197, 882, 399, 813, 399, 813, 331, 740, 331)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="Line2D24" type="Line2D" parent="."]
+points = PackedVector2Array(813, 473, 813, 399)
+default_color = Color(0.6, 0.129412, 0.917647, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(98, 253)
+shape = SubResource("SegmentShape2D_wfqnd")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(117, -100)
+shape = SubResource("SegmentShape2D_ptfk2")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+position = Vector2(950, 195)
+shape = SubResource("SegmentShape2D_xo25r")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
+position = Vector2(203, 262)
+shape = SubResource("SegmentShape2D_a0s56")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="."]
+position = Vector2(208, 331)
+shape = SubResource("SegmentShape2D_0o8k7")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="."]
+position = Vector2(271, 400)
+shape = SubResource("SegmentShape2D_oneo8")
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="."]
+position = Vector2(333, 408)
+shape = SubResource("SegmentShape2D_78e77")
+
+[node name="CollisionShape2D8" type="CollisionShape2D" parent="."]
+position = Vector2(267, 468)
+shape = SubResource("SegmentShape2D_6mma3")
+
+[node name="CollisionShape2D9" type="CollisionShape2D" parent="."]
+position = Vector2(206, 605)
+shape = SubResource("SegmentShape2D_t027d")
+
+[node name="CollisionShape2D10" type="CollisionShape2D" parent="."]
+position = Vector2(266, 472)
+shape = SubResource("SegmentShape2D_aibu0")
+
+[node name="CollisionShape2D11" type="CollisionShape2D" parent="."]
+position = Vector2(266, 670)
+shape = SubResource("SegmentShape2D_h2tyo")
+
+[node name="CollisionShape2D12" type="CollisionShape2D" parent="."]
+position = Vector2(199, 948)
+shape = SubResource("SegmentShape2D_tkh2w")
+
+[node name="CollisionShape2D13" type="CollisionShape2D" parent="."]
+position = Vector2(403, 327)
+shape = SubResource("SegmentShape2D_2iq8p")
+
+[node name="CollisionShape2D14" type="CollisionShape2D" parent="."]
+position = Vector2(406, 400)
+shape = SubResource("SegmentShape2D_qonp8")
+
+[node name="CollisionShape2D15" type="CollisionShape2D" parent="."]
+position = Vector2(471, 402)
+shape = SubResource("SegmentShape2D_sa10q")
+
+[node name="CollisionShape2D16" type="CollisionShape2D" parent="."]
+position = Vector2(335, 537)
+shape = SubResource("SegmentShape2D_hen7d")
+
+[node name="CollisionShape2D17" type="CollisionShape2D" parent="."]
+position = Vector2(335, 742)
+shape = SubResource("SegmentShape2D_3y1dc")
+
+[node name="CollisionShape2D18" type="CollisionShape2D" parent="."]
+position = Vector2(336, 811)
+shape = SubResource("SegmentShape2D_btnbe")
+
+[node name="CollisionShape2D19" type="CollisionShape2D" parent="."]
+position = Vector2(335, 881)
+shape = SubResource("SegmentShape2D_ady3d")
+
+[node name="CollisionShape2D20" type="CollisionShape2D" parent="."]
+position = Vector2(540, 266)
+shape = SubResource("SegmentShape2D_4xwm0")
+
+[node name="CollisionShape2D21" type="CollisionShape2D" parent="."]
+position = Vector2(471, 263)
+shape = SubResource("SegmentShape2D_vwo8i")
+
+[node name="CollisionShape2D22" type="CollisionShape2D" parent="."]
+position = Vector2(478, 331)
+shape = SubResource("SegmentShape2D_21meb")
+
+[node name="CollisionShape2D23" type="CollisionShape2D" parent="."]
+position = Vector2(677, 332)
+shape = SubResource("SegmentShape2D_aldg8")
+
+[node name="CollisionShape2D24" type="CollisionShape2D" parent="."]
+position = Vector2(608, 261)
+shape = SubResource("SegmentShape2D_mkqsq")
+
+[node name="CollisionShape2D25" type="CollisionShape2D" parent="."]
+position = Vector2(812, 201)
+shape = SubResource("SegmentShape2D_0rdf3")
+
+[node name="CollisionShape2D26" type="CollisionShape2D" parent="."]
+position = Vector2(882, 200)
+shape = SubResource("SegmentShape2D_gm4ds")
+
+[node name="CollisionShape2D27" type="CollisionShape2D" parent="."]
+position = Vector2(745, 332)
+shape = SubResource("SegmentShape2D_n83xw")
+
+[node name="CollisionShape2D28" type="CollisionShape2D" parent="."]
+position = Vector2(813, 474)
+shape = SubResource("SegmentShape2D_j4ty2")
+
+[node name="CollisionShape2D29" type="CollisionShape2D" parent="."]
+position = Vector2(820, 399)
+shape = SubResource("SegmentShape2D_lvl5s")
+
+[node name="CollisionShape2D30" type="CollisionShape2D" parent="."]
+position = Vector2(745, 471)
+shape = SubResource("SegmentShape2D_4fgko")
+
+[node name="CollisionShape2D31" type="CollisionShape2D" parent="."]
+position = Vector2(677, 400)
+shape = SubResource("SegmentShape2D_66v7i")
+
+[node name="CollisionShape2D32" type="CollisionShape2D" parent="."]
+position = Vector2(675, 468)
+shape = SubResource("SegmentShape2D_d3jan")
+
+[node name="CollisionShape2D33" type="CollisionShape2D" parent="."]
+position = Vector2(539, 469)
+shape = SubResource("SegmentShape2D_0ulxn")
+
+[node name="CollisionShape2D34" type="CollisionShape2D" parent="."]
+position = Vector2(540, 541)
+shape = SubResource("SegmentShape2D_kh8ha")
+
+[node name="CollisionShape2D35" type="CollisionShape2D" parent="."]
+position = Vector2(607, 676)
+shape = SubResource("SegmentShape2D_xsbms")
+
+[node name="CollisionShape2D36" type="CollisionShape2D" parent="."]
+position = Vector2(547, 674)
+shape = SubResource("SegmentShape2D_pe647")
+
+[node name="CollisionShape2D37" type="CollisionShape2D" parent="."]
+position = Vector2(538, 605)
+shape = SubResource("SegmentShape2D_506sd")
+
+[node name="CollisionShape2D38" type="CollisionShape2D" parent="."]
+position = Vector2(403, 604)
+shape = SubResource("SegmentShape2D_c8jgy")
+
+[node name="CollisionShape2D39" type="CollisionShape2D" parent="."]
+position = Vector2(404, 673)
+shape = SubResource("SegmentShape2D_n20vw")
+
+[node name="CollisionShape2D40" type="CollisionShape2D" parent="."]
+position = Vector2(472, 676)
+shape = SubResource("SegmentShape2D_8msgk")
+
+[node name="CollisionShape2D41" type="CollisionShape2D" parent="."]
+position = Vector2(400, 743)
+shape = SubResource("SegmentShape2D_nehhj")
+
+[node name="CollisionShape2D42" type="CollisionShape2D" parent="."]
+position = Vector2(538, 809)
+shape = SubResource("SegmentShape2D_kd7ix")
+
+[node name="CollisionShape2D43" type="CollisionShape2D" parent="."]
+position = Vector2(537, 881)
+shape = SubResource("SegmentShape2D_npiqv")
+
+[node name="CollisionShape2D44" type="CollisionShape2D" parent="."]
+position = Vector2(403, 880)
+shape = SubResource("SegmentShape2D_hr8rr")
+
+[node name="CollisionShape2D45" type="CollisionShape2D" parent="."]
+position = Vector2(811, 264)
+shape = SubResource("SegmentShape2D_mapd2")
+
+[node name="CollisionShape2D46" type="CollisionShape2D" parent="."]
+position = Vector2(881, 467)
+shape = SubResource("SegmentShape2D_m1tby")
+
+[node name="CollisionShape2D47" type="CollisionShape2D" parent="."]
+position = Vector2(881, 605)
+shape = SubResource("SegmentShape2D_wqima")
+
+[node name="CollisionShape2D48" type="CollisionShape2D" parent="."]
+position = Vector2(813, 605)
+shape = SubResource("SegmentShape2D_01sr3")
+
+[node name="CollisionShape2D49" type="CollisionShape2D" parent="."]
+position = Vector2(812, 538)
+shape = SubResource("SegmentShape2D_uixnc")
+
+[node name="CollisionShape2D50" type="CollisionShape2D" parent="."]
+position = Vector2(747, 537)
+shape = SubResource("SegmentShape2D_ns7lr")
+
+[node name="CollisionShape2D51" type="CollisionShape2D" parent="."]
+position = Vector2(675, 536)
+shape = SubResource("SegmentShape2D_1lugx")
+
+[node name="CollisionShape2D52" type="CollisionShape2D" parent="."]
+position = Vector2(680, 605)
+shape = SubResource("SegmentShape2D_aw4xa")
+
+[node name="CollisionShape2D53" type="CollisionShape2D" parent="."]
+position = Vector2(745, 605)
+shape = SubResource("SegmentShape2D_r6cf2")
+
+[node name="CollisionShape2D54" type="CollisionShape2D" parent="."]
+position = Vector2(749, 673)
+shape = SubResource("SegmentShape2D_npwpi")
+
+[node name="CollisionShape2D55" type="CollisionShape2D" parent="."]
+position = Vector2(608, 743)
+shape = SubResource("SegmentShape2D_wrujn")
+
+[node name="CollisionShape2D56" type="CollisionShape2D" parent="."]
+position = Vector2(676, 813)
+shape = SubResource("SegmentShape2D_3gkpo")
+
+[node name="CollisionShape2D57" type="CollisionShape2D" parent="."]
+position = Vector2(608, 878)
+shape = SubResource("SegmentShape2D_enywp")
+
+[node name="CollisionShape2D58" type="CollisionShape2D" parent="."]
+position = Vector2(676, 878)
+shape = SubResource("SegmentShape2D_6qv28")
+
+[node name="CollisionShape2D59" type="CollisionShape2D" parent="."]
+position = Vector2(883, 742)
+shape = SubResource("SegmentShape2D_c2gb1")
+
+[node name="CollisionShape2D60" type="CollisionShape2D" parent="."]
+position = Vector2(813, 742)
+shape = SubResource("SegmentShape2D_0ffqc")
+
+[node name="CollisionShape2D61" type="CollisionShape2D" parent="."]
+position = Vector2(741, 810)
+shape = SubResource("SegmentShape2D_42mg0")
+
+[node name="CollisionShape2D62" type="CollisionShape2D" parent="."]
+position = Vector2(745, 876)
+shape = SubResource("SegmentShape2D_dfsl1")
+
+[node name="CollisionShape2D63" type="CollisionShape2D" parent="."]
+position = Vector2(811, 878)
+shape = SubResource("SegmentShape2D_b4ss5")
+
+[node name="CollisionShape2D64" type="CollisionShape2D" parent="."]
+position = Vector2(950, 879)
+shape = SubResource("SegmentShape2D_pbkbv")

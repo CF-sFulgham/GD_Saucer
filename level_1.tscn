@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=3 uid="uid://dtdflf1hppq51"]
+
+[ext_resource type="Texture2D" uid="uid://s0g0tiwh02yx" path="res://speedy_saucer_assets/purple.png" id="1_3hls8"]
+[ext_resource type="Script" uid="uid://b3ad26huxt1gj" path="res://Level.cs" id="1_hn12h"]
+[ext_resource type="PackedScene" uid="uid://keay1eyf2jnc" path="res://player.tscn" id="2_hbghi"]
+[ext_resource type="PackedScene" uid="uid://by6str1bkho43" path="res://maze.tscn" id="4_ihfcg"]
+[ext_resource type="PackedScene" uid="uid://cwd25o5a0jr51" path="res://maze_overlay.tscn" id="5_rka8t"]
+
+[node name="level1" type="Node2D"]
+script = ExtResource("1_hn12h")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -100
+
+[node name="background" type="TextureRect" parent="CanvasLayer"]
+z_index = -100
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.09268, 1.09268)
+texture = ExtResource("1_3hls8")
+stretch_mode = 1
+
+[node name="Player" parent="." instance=ExtResource("2_hbghi")]
+position = Vector2(-1025, 484)
+
+[node name="Maze" parent="." instance=ExtResource("4_ihfcg")]
+z_index = -50
+position = Vector2(-1755, -473)
+scale = Vector2(3.24822, 3.22184)
+
+[node name="MazeOverlay" parent="." instance=ExtResource("5_rka8t")]
+position = Vector2(-1758, -479)
+scale = Vector2(3.25208, 3.25208)
+
+[connection signal="body_entered" from="MazeOverlay" to="." method="OnMazeBodyEntered"]
